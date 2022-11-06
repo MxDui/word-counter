@@ -1,6 +1,6 @@
 # Word Count
 
-## A yew app to count words in a text
+## An example yew app to count words in a text
 
 ## How to run
 
