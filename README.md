@@ -1,2 +1,2 @@
 # word-counter
-A yew app that counts words of a text 
+A yew app that counts words in a text 
