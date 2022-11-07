@@ -10,17 +10,13 @@ pub struct Props {
 
 #[derive(PartialEq)]
 pub enum Color {
-    Normal,
     Ok,
-    Error,
 }
 
 impl Color {
     pub fn to_string(&self) -> String {
         match self {
-            Color::Normal => "normal".to_owned(),
             Color::Ok => "ok".to_owned(),
-            Color::Error => "error".to_owned(),
         }
     }
 }
@@ -34,7 +30,7 @@ pub fn main_title(props: &Props) -> Html {
       }
 
       .ok {
-        color: green;
+        color: black;
       }
 
       .error {
@@ -44,7 +40,6 @@ pub fn main_title(props: &Props) -> Html {
     )
     .unwrap();
 
-    props.on_load.emit("I loaded!!!!!".to_owned());
 
     html! {
       <div class={stylesheet}>

@@ -4,9 +4,9 @@
 
 ## How to run
 
-1. Install [Rust](https://www.rust-lang.org/tools/install)
-2. Install [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html)
-3. Install [Trunk](https://trunkrs.dev/)
+1. Install [Rust & Cargo](https://www.rust-lang.org/tools/install)
+2. Install [Trunk](https://trunkrs.dev/)
+3. Run `rustup target add wasm32-unknown-unknown` in the project directory
 4. Run `trunk serve` in the project directory
 
 ## How to build

@@ -1,0 +1,11 @@
+textarea {
+  min-width: 80vw;
+  min-height: 50vh;
+  border: 1px solid #ccc;
+  resize: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: #333;
+}
