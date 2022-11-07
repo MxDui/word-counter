@@ -24,7 +24,6 @@ pub fn custom_form() -> Html {
     html! {
         <div class={stylesheets}>          
           <TextInput name="text" handle_onchange={text_changed} />
-          // <CustomButton label="Clean Text" onclick={button_clicked} />
           <WordCounter text={text_state.clone().to_string()} />
         </div>
     }

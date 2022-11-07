@@ -18,11 +18,14 @@ pub fn app() -> Html {
     html! {
         <div class={stylesheets}>
         <div class="container">
+        
             <MainTitle title="Word Counter" color={Color::Ok} on_load={main_title_load} />
-            <h2>{"Instructions"}</h2>
-            <div>
-            <p>{"Put the text in the box"}</p>
-            <p><strong>{"Click"}</strong>{" outside the box"}</p>
+            <div class="columns">
+                <h2>{"Instructions"}</h2>
+                <div>
+                <p>{"1. Put the text in the box"}</p>
+                <p>{"2. "}<strong>{"Click"}</strong>{" outside the box"}</p>
+                </div>
             </div>
             <CustomForm />
             </div>

@@ -31,6 +31,8 @@ pub fn main_title(props: &Props) -> Html {
 
       .ok {
         color: black;
+        margin: 0;
+        margin-top: 30px;
       }
 
       .error {
