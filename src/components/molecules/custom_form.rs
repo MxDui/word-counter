@@ -13,7 +13,6 @@ pub fn custom_form() -> Html {
     let stylesheets = Style::new(STYLE_FILE).unwrap();
 
     let text_state = use_state(|| "".to_owned());
-    let button_count_state = use_state(|| 0_u32);
 
     let cloned_text_state = text_state.clone();
     let text_changed = Callback::from(move |text| {
